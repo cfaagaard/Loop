@@ -5,7 +5,7 @@
 "Continue" = "Fortsæt";
 
 /* Placeholder for upper range entry */
-"Maximum" = "Maximum";
+"Maximum" = "Maksimum";
 
 /* Placeholder for lower range entry */
 "Minimum" = "Minimum";
@@ -23,11 +23,10 @@
 "Start Date" = "Start Dato";
 
 /* Lesson title */
-"Time in Range" = "Tme in Range";
+"Time in Range" = "Time in Range";
 
 /* Lesson subtitle */
 "Visualizes the most frequent glucose values by time of day" = "Visualiserer de hyppigste blodsukker værdier fordelt på dagen";
 
 /* Unit string for a count of calendar weeks */
-"Weeks" = "Weeks";
-
+"Weeks" = "Uger";
