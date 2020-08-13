@@ -2,16 +2,16 @@
 "CFBundleName" = "$(PRODUCT_NAME)";
 
 /* Privacy - Bluetooth Always Usage Description */
-"NSBluetoothAlwaysUsageDescription" = "Bluetooth is used to communicate with insulin pump and continuous glucose monitor devices.";
+"NSBluetoothAlwaysUsageDescription" = "Bluetooth bruges til at kommunikere med insulinpumpe og kontinuerlige glukose Monitor enheder.";
 
 /* Privacy - Bluetooth Peripheral Usage Description */
-"NSBluetoothPeripheralUsageDescription" = "Bluetooth is used to communicate with insulin pump and continuous glucose monitor devices.";
+"NSBluetoothPeripheralUsageDescription" = "Bluetooth bruges til at kommunikere med insulinpumpe og kontinuerlige glukose monitor enheder.";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Face ID is used to authenticate insulin bolus.";
+"NSFaceIDUsageDescription" = "Face ID bruges til at godkende bolus.";
 
 /* Privacy - Health Share Usage Description */
-"NSHealthShareUsageDescription" = "Meal data from the Health database is used to determine glucose effects. Glucose data from the Health database is used for graphing and momentum calculation. Sleep data from the Health database is used to optimize delivery of Apple Watch complication updates during the time you are awake.";
+"NSHealthShareUsageDescription" = "Måltidsdata fra sundhedsdatabasen bruges til at bestemme glukoseeffekter. Glukosedata fra sundhedsdatabasen bruges til graftegning og momentumberegning. Søvndata fra sundhedsdatabasen bruges til at optimere leveringen af opdateringer om komplikationer af Apple Watch i den tid, du er vågen.";
 
 /* Privacy - Health Update Usage Description */
-"NSHealthUpdateUsageDescription" = "Carbohydrate meal data entered in the app and on the watch is stored in the Health database. Glucose data retrieved from the CGM is stored securely in HealthKit.";
+"NSHealthUpdateUsageDescription" = "Data om kulhydrat måltid, der indtastes i appen og på uret, lagres i Apple Health-databasen. Glukosedata, der hentes fra CGM, opbevares sikkert i HealthKit.";
