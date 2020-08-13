@@ -1,21 +1,6 @@
 /* The string format appended to active insulin that describes pending insulin. (1: pending insulin) */
 " (pending: %@)" = "(odot.: %@)";
 
-/* The format for an active override preset. (1: preset symbol)(2: preset name) */
-"%@ %@" = "%1$@ %2$@";
-
-/* Formats absorbed carb value */
-"%@ absorbed" = "%@ imeytynyt";
-
-/* The subtitle format describing total insulin. (1: localized insulin total) */
-"%@ U Total" = "%@ U yhteensä";
-
-/* Appends a full-stop to a statement */
-"%@." = "%@.";
-
-/* Format string for glucose target range. (1: Min target)(2: Max target)(3: glucose unit) */
-"%1$@ – %2$@ %3$@" = "%1$@ – %2$@ %3$@";
-
 /* Format string for carb ratio average. (1: value)(2: carb unit) */
 "%1$@ %2$@/U" = "%1$@ %2$@/U";
 
@@ -34,8 +19,23 @@
 /* The format string for the app name and version number. (1: bundle name)(2: bundle version) */
 "%1$@ v%2$@" = "%1$@ v%2$@";
 
+/* Format string for glucose target range. (1: Min target)(2: Max target)(3: glucose unit) */
+"%1$@ – %2$@ %3$@" = "%1$@ – %2$@ %3$@";
+
 /* Formats (1: carb value) and (2: food type) */
 "%1$@: %2$@" = "%1$@: %2$@";
+
+/* The format for an active override preset. (1: preset symbol)(2: preset name) */
+"%@ %@" = "%1$@ %2$@";
+
+/* Formats absorbed carb value */
+"%@ absorbed" = "%@ imeytynyt";
+
+/* The subtitle format describing total insulin. (1: localized insulin total) */
+"%@ U Total" = "%@ U yhteensä";
+
+/* Appends a full-stop to a statement */
+"%@." = "%@.";
 
 /* Description of the prediction input effect for glucose momentum */
 "15 min glucose regression coefficient (b₁), continued with decay over 30 min" = "15 min glukoosin regressiokerroin (b₁), hiipuen 30 min kuluessa";
@@ -48,9 +48,6 @@
 
 /* Subtitle of Rapid-Acting – Adult preset */
 "A model based on the published absorption of Humalog, Novolog, and Apidra insulin in adults." = "Perustuu Humalog-, Novorapid- ja Apidra-insuliinien julkaistuun imeytymismalliin aikuisilla.";
-
-/* Title of the carb entry absorption time cell */
-"Absorption Time" = "Imeytymisaika";
 
 /* Action to copy the recommended Bolus value to the actual Bolus Field */
 "AcceptRecommendedBolus" = "HyväksySuositeltuBolus";
@@ -67,14 +64,11 @@
 /* The string format describing active insulin. (1: localized insulin value description) */
 "Active Insulin: %@" = "Aktiivinen insuliini: %@";
 
-/* Title of the user activity for adding carbs */
-"Add Carb Entry" = "Lisää hiilihydraatteja";
-
 /* Action sheet title selecting CGM
    Title text for button to set up a CGM */
 "Add CGM" = "Lisää CGM";
 
-/* The label of the carb entry button */
+/* The label of the meal button */
 "Add Meal" = "Lisää ateria";
 
 /* Action sheet title selecting Pump
@@ -110,12 +104,8 @@
 "Basal Rates" = "Basaalitasot";
 
 /* The label of the bolus entry button
-   The notification title for a bolus failure
-   Title text for bolus screen (manual correction) */
+   The notification title for a bolus failure */
 "Bolus" = "Bolus";
-
-/* Alert title for an updated bolus recommendation */
-"Bolus Recommendation Updated" = "Bolussuositus päivitetty";
 
 /* The format string for bolus progress. (1: delivered volume)(2: total volume) */
 "Bolused %1$@ of %2$@" = "Bolus %1$@ / %2$@";
@@ -132,18 +122,9 @@
 /* Details for missing data error when carb effects are missing */
 "Carb effects" = "Hiilihydraattivaikutus";
 
-/* Back button text for bolus screen to return to carb entry screen */
-"Carb Entry" = "Hiilihydraatit";
-
 /* The title of the carb ratios schedule screen
    The title text for the carb ratio schedule */
 "Carb Ratios" = "Hiilihydraattisuhteet";
-
-/* The title of the view controller to create a new carb entry */
-"carb-entry-title-add" = "Lisää hiilihydraatteja";
-
-/* The title of the view controller to edit an existing carb entry */
-"carb-entry-title-edit" = "Muokkaa hiilihydraatteja";
 
 /* Title of the prediction input effect for carbohydrates */
 "Carbohydrates" = "Hiilihydraatit";
@@ -165,9 +146,6 @@
 
 /* Recovery suggestion when glucose data is missing */
 "Check your CGM data source" = "Tarkista CGM-tietolähde";
-
-/* Carb entry section footer text explaining absorption time */
-"Choose a longer absorption time for larger meals, or those containing fats and proteins. This is only guidance to the algorithm and need not be exact." = "Valitse pidempi imeytymisaika isoille tai paljon rasvaa ja proteiineja sisältäville aterioille. Tämä on suuntaa antava tieto, eikä sen tarvitse olla tarkka.";
 
 /* The title text for the looping enabled switch cell */
 "Closed Loop" = "Suljettu säätö";
@@ -191,21 +169,14 @@
 /* Message when offering bolus recommendation even though bg is below range. (1: glucose value) */
 "Current glucose of %1$@ is below correction range." = "Nykyinen glukoosi %1$@ on korjausalueen alapuolella.";
 
-/* Name of custom override
-   The title of the cell indicating a generic temporary override is enabled */
+/* The title of the cell indicating a generic temporary override is enabled */
 "Custom Override" = "Mukautettu tilapäisasetus";
 
 /* The title of the Loggly customer token credential */
 "Customer Token" = "Asiakastunniste";
 
-/* Title of the carb entry date picker cell */
-"Date" = "Aika";
-
 /* Button title to delete CGM */
 "Delete CGM" = "Poista CGM";
-
-/* The button text to initiate a bolus */
-"Deliver" = "Annostele";
 
 /* Title text for delivery limits */
 "Delivery Limits" = "Annostelurajat";
@@ -296,9 +267,6 @@
 /* The notification alert describing a long-lasting loop failure. The substitution parameter is the time interval since the last loop */
 "Loop has not completed successfully in %@" = "Häiriö Loopin toiminnassa %@";
 
-/* Title text for bolus screen following a carb entry */
-"Meal Bolus" = "Ateriabolus";
-
 /* The error message for missing data. (1: missing data details) */
 "Missing data: %1$@" = "Tiedot puuttuvat: %1$@";
 
@@ -311,14 +279,8 @@
 /* The error message displayed for device connection errors. */
 "No connected devices, or failure during device connection" = "Ei yhdistettyjä laitteita tai häiriö laiteyhteydessä";
 
-/* Button text to acknowledge an updated bolus recommendation alert */
-"OK" = "OK";
-
 /* The title text for the override presets */
 "Override Presets" = "Tilapäisasetukset";
-
-/* Name of pre-meal workout override */
-"Pre-Meal" = "Ennen ateriaa";
 
 /* The label of the pre-meal mode toggle button */
 "Pre-Meal Targets" = "Ennen ateriaa -tavoite";
@@ -374,12 +336,8 @@
 /* Title of the prediction input effect for retrospective correction */
 "Retrospective Correction" = "Retrospektiivinen korjaus";
 
-/* The button text for attempting a manual loop
-   The title of the notification action to retry a bolus command */
+/* The title of the notification action to retry a bolus command */
 "Retry" = "Uudelleen";
-
-/* The button text to save a carb entry without bolusing */
-"Save without Bolusing" = "Tallenna ilman bolusta";
 
 /* The title of the services section in settings */
 "Services" = "Palvelut";
@@ -408,9 +366,6 @@
 /* The subtitle of the cell displaying an action to resume insulin delivery */
 "Tap to Resume" = "Jatka annostelua";
 
-/* Alert message for an updated bolus recommendation */
-"The bolus recommendation has updated. Please reconfirm the bolus amount." = "Bolussuositus on päivittynyt. Vahvista bolus uudelleen.";
-
 /* Subtitle description of Walsh insulin model setting */
 "The legacy model used by Loop, allowing customization of action duration." = "Loopin vanha insuliinimalli, jossa voi muokata insuliinin vaikutusaikaa.";
 
@@ -432,9 +387,5 @@
 /* Explanation of suspend threshold */
 "When current or forecasted glucose is below the suspend threshold, Loop will not recommend a bolus, and will always recommend a temporary basal rate of 0 units per hour." = "Kun nykyinen tai ennustettu glukoosi on pysäytysrajan alapuolella, Loop ei suosittele bolusta ja suosittelee aina tilapäiseksi basaaliksi 0 yksikköä tunnissa.";
 
-/* Name of legacy workout override */
-"Workout" = "Liikunta";
-
 /* The label of the workout mode toggle button */
 "Workout Targets" = "Liikuntatavoitteet";
-
