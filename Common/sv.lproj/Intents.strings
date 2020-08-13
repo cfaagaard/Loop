@@ -1,9 +1,8 @@
-/* (No Comment) */
-"80eo5o" = "Lägg till kolhydrater";
+/* INIntentTitle */
+"80eo5o" = "Add Carb Entry";
 
-/* (No Comment) */
-"OcNxIj" = "Lägg till kolhydrater";
+/* INIntentParameterCombinationTitle */
+"OcNxIj" = "Add Carb Entry";
 
-/* (No Comment) */
-"yc02Yq" = "Lägg till kolhydrater för att kunna loopa";
-
+/* INIntentDescription */
+"yc02Yq" = "Add a carb entry to Loop";
