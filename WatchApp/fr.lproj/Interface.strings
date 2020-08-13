@@ -1,8 +1,7 @@
-
 /* Class = "WKInterfaceButton"; title = "🌮"; ObjectID = "0fo-Z3-hTi"; */
 "0fo-Z3-hTi.title" = "🌮";
 
-/* Class = "WKInterfaceLabel"; text = "--"; ObjectID = "CWt-7U-cnK"; */
+/* Class = "WKInterfaceLabel"; text = "15"; ObjectID = "CWt-7U-cnK"; */
 "CWt-7U-cnK.text" = "--";
 
 /* Class = "WKInterfaceLabel"; text = "—"; ObjectID = "CsQ-fc-KLC"; */
@@ -46,9 +45,6 @@
 
 /* Class = "WKInterfaceLabel"; text = "10:09 AM"; ObjectID = "Ury-of-vQg"; */
 "Ury-of-vQg.text" = "10:09 AM";
-
-/* Class = "WKInterfaceLabel"; text = "Turn Digital Crown to bolus"; ObjectID = "Xcr-jO-0IQ"; */
-"Xcr-jO-0IQ.text" = "Tourn la couronne Digital Crown pour gérer le bolus";
 
 /* Class = "WKInterfaceLabel"; text = "<body>"; ObjectID = "XkS-y5-khE"; */
 "XkS-y5-khE.text" = "<body>";
