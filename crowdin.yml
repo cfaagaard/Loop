@@ -3,3 +3,5 @@ files:
     translation: /Common/%osx_code%/%original_file_name%
   - source: Learn/en.lproj/*
     translation: /Learn/%osx_code%/%original_file_name%
+  - source: LoopUI/en.lproj/*
+    translation: /LoopUI/%osx_code%/%original_file_name%
