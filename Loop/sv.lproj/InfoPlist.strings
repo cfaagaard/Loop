@@ -15,4 +15,3 @@
 
 /* Privacy - Health Update Usage Description */
 "NSHealthUpdateUsageDescription" = "Kolhydratvärden inmatade i appen i klockan lagras i Apple Health-databasen. Glukosvärden mottagna från CGM lagras krypterat i HealthKit.";
-
