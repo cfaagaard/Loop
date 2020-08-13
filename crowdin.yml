@@ -5,3 +5,11 @@ files:
     translation: /Learn/%osx_code%/%original_file_name%
   - source: LoopUI/en.lproj/*
     translation: /LoopUI/%osx_code%/%original_file_name%
+  - source: Loop/en.lproj/*
+    translation: /Loop/%osx_code%/%original_file_name%
+  - source: Loop Status Extension/en.lproj/*
+    translation: /Loop Status Extension/%osx_code%/%original_file_name%
+  - source: WatchApp/en.lproj/*
+    translation: /WatchApp/%osx_code%/%original_file_name%
+  - source: WatchApp Extension/en.lproj/*
+    translation: /WatchApp/%osx_code%/%original_file_name%
