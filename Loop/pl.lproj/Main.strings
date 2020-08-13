@@ -1,4 +1,3 @@
-
 /* Class = "UINavigationItem"; title = "Status"; ObjectID = "3kU-n2-fha"; */
 "3kU-n2-fha.title" = "Status";
 
@@ -19,9 +18,6 @@
 
 /* Class = "UILabel"; text = "Predicted"; ObjectID = "87H-N1-0vJ"; */
 "87H-N1-0vJ.text" = "Przewidywany";
-
-/* Class = "UILabel"; text = "Title"; ObjectID = "B9F-K3-7RI"; */
-"B9F-K3-7RI.text" = "Tytuł";
 
 /* Class = "UILabel"; accessibilityLabel = "Units"; ObjectID = "BR0-dr-Fj2"; */
 "BR0-dr-Fj2.accessibilityLabel" = "Jednostki";
