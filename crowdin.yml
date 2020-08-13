@@ -1,0 +1,5 @@
+files:
+  - source: Common/en.lproj/*
+    translation: /Common/%osx_code%/%original_file_name%
+  - source: Learn/en.lproj/*
+    translation: /Learn/%osx_code%/%original_file_name%
