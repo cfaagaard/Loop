@@ -1,11 +1,11 @@
 /* HUD row title for COB */
-"Active Carbs" = "Active Carbs";
+"Active Carbs" = "Carbohidratos activos";
 
 /* HUD row title for IOB */
-"Active Insulin" = "Active Insulin";
+"Active Insulin" = "Insulina Activa";
 
 /* The title of the alert controller displayed after a bolus attempt fails */
-"Bolus Failed" = "Bolus Failed";
+"Bolus Failed" = "Bolo Falló";
 
 /* The action button title to dismiss an error message */
 "Dismiss" = "Dismiss";
